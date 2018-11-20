@@ -1,0 +1,7 @@
+spring:
+  kafka:
+    bootstrap-servers: 132.232.103.230:9092
+    consumer:
+      group-id: group-test
+server:
+  port: 8888
