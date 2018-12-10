@@ -42,6 +42,7 @@ services:
   # scala version: 2.12
   kafka:
     image: wurstmeister/kafka
+    restart: always
     ports:
       - "9092:9092"
     environment:
